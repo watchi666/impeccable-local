@@ -577,6 +577,12 @@ export const PROVIDER_PLACEHOLDERS = {
     config_file: 'AGENTS.md',
     ask_instruction: 'ask the user directly to clarify what you cannot infer.',
     command_prefix: '/'
+  },
+  'hermes': {
+    model: 'the AI model',
+    config_file: 'SOUL.md',
+    ask_instruction: 'ask the user directly to clarify.',
+    command_prefix: ''
   }
 };
 
@@ -588,6 +594,7 @@ export const PROVIDER_BLOCK_TAGS = new Set([
   'cursor',
   'gemini',
   'github',
+  'hermes',
   'kiro',
   'opencode',
   'pi',

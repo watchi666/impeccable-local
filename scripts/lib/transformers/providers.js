@@ -110,4 +110,11 @@ export const PROVIDERS = {
     displayName: 'Rovo Dev',
     frontmatterFields: ['user-invocable', 'argument-hint', 'license', 'compatibility', 'metadata', 'allowed-tools'],
   },
+  hermes: {
+    provider: 'hermes',
+    providerTags: ['hermes'],
+    configDir: '.hermes',
+    displayName: 'Hermes',
+    frontmatterFields: ['name', 'description', 'user-invocable', 'argument-hint'],
+  },
 };
